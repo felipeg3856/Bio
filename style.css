@@ -19,6 +19,11 @@ img {
     border-radius: 88px;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
 }
+img:hover{
+    width: 120px;
+    height: 120px;
+    border-radius: 55px;
+}
 
 h1 {
     align-self: stretch;
@@ -70,7 +75,10 @@ p {
     font-weight: 700;
     line-height: 150%;
 }
-
+.Um:hover{
+cursor: pointer;
+background-color: #C4F82A;
+}
 .dois {
     display: flex;
     padding: var(--spacing-150, 12px);
@@ -87,7 +95,10 @@ p {
     font-weight: 700;
     line-height: 150%;
 }
-
+.dois:hover{
+cursor: pointer;
+background-color: #C4F82A;
+}
 .tres {
     display: flex;
     padding: var(--spacing-150, 12px);
@@ -103,6 +114,10 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+.tres:hover{
+cursor: pointer;
+background-color: #C4F82A;
 }
 
 .quatro {
@@ -122,6 +137,10 @@ p {
     line-height: 150%;
 }
 
+.quatro:hover{
+cursor: pointer;
+background-color: #C4F82A;
+}
 .cinco {
     display: flex;
     padding: var(--spacing-150, 12px);
@@ -137,4 +156,8 @@ p {
     font-style: normal;
     font-weight: 700;
     line-height: 150%;
+}
+.cinco:hover{
+cursor: pointer;
+background-color: #C4F82A;
 }
